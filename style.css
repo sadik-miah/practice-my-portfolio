@@ -3,4 +3,48 @@ body {
    font-family: 'Edu VIC WA NT Beginner', cursive;
    font-family: 'Italianno', cursive;
    font-family: 'Roboto', sans-serif;
+   margin: 0px;
+}
+
+.top-banner {
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+}
+
+section {
+   display: flex;
+   padding: 0px 5%;
+   margin-bottom: 150px;
+}
+
+.half-width img {
+   width: 100%;
+
+}
+
+.half-width p {}
+
+.half-width {
+   width: 50%;
+}
+
+.orange-color {
+   color: orange;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+h2 {
+   font-size: 35px;
+}
+
+.link-button {
+   text-decoration: none;
+   background-image: linear-gradient(orange, tomato);
+   padding: 5px 15px;
+   border-radius: 5px;
+   color: white;
+   font-weight: 400;
 }
