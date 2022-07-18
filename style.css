@@ -11,18 +11,17 @@ body {
    background-repeat: no-repeat;
 }
 
-section {
+.felexable-conteiner {
    display: flex;
-   padding: 0px 5%;
+   padding: 0px 2% 0 2%;
    margin-bottom: 150px;
 }
 
 .half-width img {
-   width: 100%;
-
+   width: 80%;
+   padding-left: 5%;
 }
 
-.half-width p {}
 
 .half-width {
    width: 50%;
@@ -47,4 +46,62 @@ h2 {
    border-radius: 5px;
    color: white;
    font-weight: 400;
+}
+
+.margin {
+   margin-right: 15%;
+}
+
+.dreame-area {
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-bottom: 100px;
+}
+
+.left {
+   margin-left: 0px;
+}
+
+.ex-color {
+   color: orange;
+}
+
+.ex-item {
+   box-shadow: 10px 10px 40px gray;
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 5px;
+   padding: 20px;
+
+}
+
+.font {
+   font-size: 25px;
+}
+
+.experience-area {
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+
+#full-web {
+   border-left: 7px solid;
+   border-image: linear-gradient(blue, cyan);
+   border-image-slice: 1;
+
+}
+
+#baby-web {
+   border-left: 7px solid;
+   border-image: linear-gradient(orange, tomato);
+   border-image-slice: 1;
+
+}
+
+footer {
+   text-align: center;
+   color: cyan;
 }
